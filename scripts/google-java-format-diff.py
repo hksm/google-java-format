@@ -50,7 +50,7 @@ def main():
   parser.add_argument('-v', '--verbose', action='store_true',
                       help='be more verbose, ineffective without -i')
   parser.add_argument('-a', '--aosp', action='store_true',
-                      help='use AOSP style instead of Google Style (4-space indentation)')
+                      help='use FOUR_SPACES style instead of Google Style (4-space indentation)')
   parser.add_argument('--skip-sorting-imports', action='store_true',
                       help='do not fix the import order')
   parser.add_argument('-b', '--binary', help='path to google-java-format binary')

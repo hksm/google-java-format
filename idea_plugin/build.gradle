@@ -19,11 +19,13 @@ plugins {
 }
 
 repositories {
+  mavenLocal()
   mavenCentral()
+
 }
 
 ext {
-  googleJavaFormatVersion = '1.6'
+  googleJavaFormatVersion = '1.8-SNAPSHOT'
 }
 
 apply plugin: 'org.jetbrains.intellij'

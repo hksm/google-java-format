@@ -3553,12 +3553,12 @@ public final class JavaInputAstVisitor extends TreePathScanner<Void, Void> {
    * currently true if all annotations are marker annotations.
    */
   private Direction fieldAnnotationDirection(ModifiersTree modifiers) {
-    for (AnnotationTree annotation : modifiers.getAnnotations()) {
-      if (!annotation.getArguments().isEmpty()) {
+//    for (AnnotationTree annotation : modifiers.getAnnotations()) {
+//      if (!annotation.getArguments().isEmpty()) {
         return Direction.VERTICAL;
-      }
-    }
-    return Direction.HORIZONTAL;
+//      }
+//    }
+//    return Direction.HORIZONTAL;
   }
 
   /**

@@ -100,7 +100,7 @@ final class CommandLineOptions {
     return lengths;
   }
 
-  /** Use AOSP style instead of Google Style (4-space indentation). */
+  /** Use FOUR_SPACES style instead of Google Style (4-space indentation). */
   boolean aosp() {
     return aosp;
   }

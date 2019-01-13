@@ -96,7 +96,7 @@ public final class Main {
     }
 
     JavaFormatterOptions options =
-        JavaFormatterOptions.builder().style(parameters.aosp() ? Style.AOSP : Style.GOOGLE).build();
+        JavaFormatterOptions.builder().style(parameters.aosp() ? Style.FOUR_SPACES : Style.TWO_SPACES).build();
 
     if (parameters.stdin()) {
       return formatStdin(parameters, options);
